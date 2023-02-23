@@ -9,7 +9,11 @@ se estiver a noite{
     }
 ficar na frente da pia
 escovar (dente)
+se a luz estiver acesa{
+    apagar a luz    
+    }
 sair do banheiro
+fechar a porta do banheiro
 ir ate o sofa 
 sentar no sofa
 fim se
