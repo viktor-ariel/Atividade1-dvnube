@@ -3,13 +3,13 @@ ir ate a porta do banheiro
 se a porta estiver fechada {
     abrir porta
 }
-entrar dentro do banheiro
-se estiver a noite{
+entrar no banheiro
+se estiver a noite {
     acender a luz    
     }
 ficar na frente da pia
 escovar (dente)
-se a luz estiver acesa{
+se a luz estiver acesa {
     apagar a luz    
     }
 sair do banheiro
@@ -26,7 +26,7 @@ escovar(dente){
     passar pasta de dente na * da escova
     colacar agua na escova
     passar escova no dente {
-            dente esta sujo{
+            dente esta sujo {
                 repetir pasar escova no dente           
             }
     }
