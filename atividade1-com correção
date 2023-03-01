@@ -6,12 +6,12 @@ se a porta estiver fechada {
 entrar no banheiro
 se estiver a noite {
     acender a luz    
-}
+    }
 ficar na frente da pia
 escovar (dente)
 se a luz estiver acesa {
     apagar a luz    
-}
+    }
 sair do banheiro
 fechar a porta do banheiro
 ir ate o sofa 
@@ -20,21 +20,15 @@ fim se
 
 
 
-escovar(dente) {
+escovar(dente){
     segurar pasta de dente
     abrir a pasta de dente
     passar pasta de dente na * da escova
     colacar agua na escova
     passar escova no dente {
-        tempo = 0s
-        dente = sujo
-        enquanto dente == sujo {
-            repetir passar escova no dente
-            se tempo > 60s {
-                dente = limpo
+            dente esta sujo {
+                repetir pasar escova no dente           
             }
-            tempo = tempo + 1s
-        }
     }
     lavar a boca
     fechar pasta de dente
